@@ -1,0 +1,79 @@
+{
+  "imagens_utilizaveis": 77,
+  "produtos": 37,
+  "categorias": 9,
+  "imagens_por_categoria": {
+    "Arroz": 14,
+    "Açúcar": 5,
+    "Café": 9,
+    "Farinhas e flocão": 11,
+    "Feijão": 4,
+    "Leite UHT": 15,
+    "Macarrão": 9,
+    "Manteiga": 2,
+    "Óleo de soja": 8
+  },
+  "produtos_por_categoria": {
+    "Arroz": 6,
+    "Açúcar": 4,
+    "Café": 3,
+    "Farinhas e flocão": 6,
+    "Feijão": 4,
+    "Leite UHT": 6,
+    "Macarrão": 4,
+    "Manteiga": 2,
+    "Óleo de soja": 2
+  },
+  "imagens_por_produto": {
+    "BR0001": 4,
+    "BR0002": 1,
+    "BR0003": 2,
+    "BR0004": 5,
+    "BR0005": 1,
+    "BR0006": 1,
+    "BR0007": 1,
+    "BR0008": 1,
+    "BR0009": 1,
+    "BR0010": 1,
+    "BR0011": 1,
+    "BR0012": 1,
+    "BR0013": 1,
+    "BR0014": 2,
+    "BR0015": 4,
+    "BR0016": 3,
+    "BR0017": 2,
+    "BR0018": 4,
+    "BR0019": 2,
+    "BR0020": 1,
+    "BR0021": 3,
+    "BR0022": 4,
+    "BR0023": 1,
+    "BR0024": 5,
+    "BR0025": 3,
+    "BR0026": 4,
+    "BR0027": 2,
+    "BR0028": 1,
+    "BR0029": 1,
+    "BR0030": 1,
+    "BR0031": 2,
+    "BR0032": 4,
+    "BR0033": 1,
+    "BR0034": 2,
+    "BR0035": 2,
+    "BR0036": 1,
+    "BR0037": 1
+  },
+  "resolucao_media": {
+    "largura": 564.9,
+    "altura": 754.7
+  },
+  "imagens_excluidas": 42,
+  "motivos_exclusao": {
+    "verso_ou_tabela_nao_e_frente_da_embalagem": 42
+  },
+  "categorias_com_baixa_representatividade": [
+    "Manteiga"
+  ],
+  "criterio_baixa_representatividade": "menos de 4 imagens utilizáveis",
+  "exclusao": "Versos, tabelas nutricionais e ingredientes saíram do experimento. Os arquivos originais permanecem no manifesto."
+}

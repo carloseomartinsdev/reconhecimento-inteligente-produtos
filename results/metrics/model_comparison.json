@@ -1,0 +1,926 @@
+[
+  {
+    "modelo": "mobilenet_v3_large",
+    "etapa": "A",
+    "accuracy": 0.7272727272727273,
+    "precision": 0.625,
+    "recall": 0.6875,
+    "f1": 0.6458333333333333,
+    "f1_validacao": 0.8666666666666667,
+    "melhor_epoca": 20,
+    "segundos_treino": 46.1,
+    "segundos_inferencia_media": 0.0294,
+    "parametros_treinaveis": 1241609,
+    "categorias_no_teste": [
+      "Arroz",
+      "Açúcar",
+      "Café",
+      "Farinhas e flocão",
+      "Feijão",
+      "Leite UHT",
+      "Macarrão",
+      "Óleo de soja"
+    ],
+    "categorias_ausentes_no_teste": [
+      "Manteiga"
+    ],
+    "matriz_confusao": [
+      [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "rotulos_matriz": [
+      "Arroz",
+      "Açúcar",
+      "Café",
+      "Farinhas e flocão",
+      "Feijão",
+      "Leite UHT",
+      "Macarrão",
+      "Manteiga",
+      "Óleo de soja"
+    ],
+    "historico": [
+      {
+        "epoca": 1,
+        "loss_treino": 2.222340539649681,
+        "acuracia_treino": 0.16666666666666666,
+        "loss_validacao": 2.1114080995321274,
+        "acuracia_validacao": 0.16666666666666666,
+        "f1_validacao": 0.05952380952380952
+      },
+      {
+        "epoca": 2,
+        "loss_treino": 1.4556466341018677,
+        "acuracia_treino": 0.5555555555555556,
+        "loss_validacao": 1.9834580396612485,
+        "acuracia_validacao": 0.16666666666666666,
+        "f1_validacao": 0.07777777777777778
+      },
+      {
+        "epoca": 3,
+        "loss_treino": 1.1065742307239108,
+        "acuracia_treino": 0.6851851851851852,
+        "loss_validacao": 1.7980833128094673,
+        "acuracia_validacao": 0.3333333333333333,
+        "f1_validacao": 0.16507936507936508
+      },
+      {
+        "epoca": 4,
+        "loss_treino": 0.7639219716743186,
+        "acuracia_treino": 0.8518518518518519,
+        "loss_validacao": 1.7501400926460822,
+        "acuracia_validacao": 0.3333333333333333,
+        "f1_validacao": 0.16507936507936508
+      },
+      {
+        "epoca": 5,
+        "loss_treino": 0.6403869743700381,
+        "acuracia_treino": 0.8703703703703703,
+        "loss_validacao": 1.7321572694927454,
+        "acuracia_validacao": 0.3333333333333333,
+        "f1_validacao": 0.2222222222222222
+      },
+      {
+        "epoca": 6,
+        "loss_treino": 0.40106226559038516,
+        "acuracia_treino": 0.8888888888888888,
+        "loss_validacao": 1.6364444295565288,
+        "acuracia_validacao": 0.4166666666666667,
+        "f1_validacao": 0.31746031746031744
+      },
+      {
+        "epoca": 7,
+        "loss_treino": 0.3408791753980849,
+        "acuracia_treino": 0.9444444444444444,
+        "loss_validacao": 1.6301772355412443,
+        "acuracia_validacao": 0.4166666666666667,
+        "f1_validacao": 0.43209876543209874
+      },
+      {
+        "epoca": 8,
+        "loss_treino": 0.14173246740742965,
+        "acuracia_treino": 1.0,
+        "loss_validacao": 1.8883736665981512,
+        "acuracia_validacao": 0.4166666666666667,
+        "f1_validacao": 0.37373737373737376
+      },
+      {
+        "epoca": 9,
+        "loss_treino": 0.1521620159899747,
+        "acuracia_treino": 1.0,
+        "loss_validacao": 1.888285070929366,
+        "acuracia_validacao": 0.5,
+        "f1_validacao": 0.45185185185185184
+      },
+      {
+        "epoca": 10,
+        "loss_treino": 0.13471685901836114,
+        "acuracia_treino": 0.9814814814814815,
+        "loss_validacao": 1.3504830825453003,
+        "acuracia_validacao": 0.75,
+        "f1_validacao": 0.6190476190476191
+      },
+      {
+        "epoca": 11,
+        "loss_treino": 0.14565977964688231,
+        "acuracia_treino": 0.9629629629629629,
+        "loss_validacao": 1.5535862856389333,
+        "acuracia_validacao": 0.75,
+        "f1_validacao": 0.6190476190476191
+      },
+      {
+        "epoca": 12,
+        "loss_treino": 0.11354039154118961,
+        "acuracia_treino": 0.9814814814814815,
+        "loss_validacao": 1.6349008377098169,
+        "acuracia_validacao": 0.75,
+        "f1_validacao": 0.6190476190476191
+      },
+      {
+        "epoca": 13,
+        "loss_treino": 0.1172121415535609,
+        "acuracia_treino": 0.9629629629629629,
+        "loss_validacao": 1.171146467095241,
+        "acuracia_validacao": 0.6666666666666666,
+        "f1_validacao": 0.5555555555555556
+      },
+      {
+        "epoca": 14,
+        "loss_treino": 0.10054049705569115,
+        "acuracia_treino": 0.9629629629629629,
+        "loss_validacao": 1.039583778862531,
+        "acuracia_validacao": 0.75,
+        "f1_validacao": 0.6888888888888888
+      },
+      {
+        "epoca": 15,
+        "loss_treino": 0.106583829831194,
+        "acuracia_treino": 0.9814814814814815,
+        "loss_validacao": 1.470752352421793,
+        "acuracia_validacao": 0.6666666666666666,
+        "f1_validacao": 0.5703703703703703
+      },
+      {
+        "epoca": 16,
+        "loss_treino": 0.08145287425981627,
+        "acuracia_treino": 0.9814814814814815,
+        "loss_validacao": 1.4470361464094215,
+        "acuracia_validacao": 0.6666666666666666,
+        "f1_validacao": 0.574074074074074
+      },
+      {
+        "epoca": 17,
+        "loss_treino": 0.06957490314488057,
+        "acuracia_treino": 0.9814814814814815,
+        "loss_validacao": 1.1385802966542542,
+        "acuracia_validacao": 0.8333333333333334,
+        "f1_validacao": 0.7962962962962963
+      },
+      {
+        "epoca": 18,
+        "loss_treino": 0.03497322997147286,
+        "acuracia_treino": 1.0,
+        "loss_validacao": 1.0753822626623635,
+        "acuracia_validacao": 0.8333333333333334,
+        "f1_validacao": 0.7962962962962963
+      },
+      {
+        "epoca": 19,
+        "loss_treino": 0.048642927435813124,
+        "acuracia_treino": 1.0,
+        "loss_validacao": 1.091807614803353,
+        "acuracia_validacao": 0.8333333333333334,
+        "f1_validacao": 0.7962962962962963
+      },
+      {
+        "epoca": 20,
+        "loss_treino": 0.028034484514069778,
+        "acuracia_treino": 1.0,
+        "loss_validacao": 1.1047712739285391,
+        "acuracia_validacao": 0.9166666666666666,
+        "f1_validacao": 0.8666666666666667
+      }
+    ],
+    "observacao": "Accuracy, precision, recall e F1 macro consideram as categorias presentes no teste. A matriz usa todas as categorias do experimento. A seleção do checkpoint usou só a validação."
+  },
+  {
+    "modelo": "mobilenet_v3_large",
+    "etapa": "B",
+    "accuracy": 0.5454545454545454,
+    "precision": 0.3333333333333333,
+    "recall": 0.4375,
+    "f1": 0.375,
+    "f1_validacao": 0.8111111111111111,
+    "melhor_epoca": 3,
+    "segundos_treino": 20.8,
+    "segundos_inferencia_media": 0.0307,
+    "parametros_treinaveis": 2991849,
+    "categorias_no_teste": [
+      "Arroz",
+      "Açúcar",
+      "Café",
+      "Farinhas e flocão",
+      "Feijão",
+      "Leite UHT",
+      "Macarrão",
+      "Óleo de soja"
+    ],
+    "categorias_ausentes_no_teste": [
+      "Manteiga"
+    ],
+    "matriz_confusao": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "rotulos_matriz": [
+      "Arroz",
+      "Açúcar",
+      "Café",
+      "Farinhas e flocão",
+      "Feijão",
+      "Leite UHT",
+      "Macarrão",
+      "Manteiga",
+      "Óleo de soja"
+    ],
+    "historico": [
+      {
+        "epoca": 1,
+        "loss_treino": 0.0037684477736345595,
+        "acuracia_treino": 1.0,
+        "loss_validacao": 1.087057301532089,
+        "acuracia_validacao": 0.8333333333333334,
+        "f1_validacao": 0.7962962962962963
+      },
+      {
+        "epoca": 2,
+        "loss_treino": 0.0052634304544578,
+        "acuracia_treino": 1.0,
+        "loss_validacao": 1.080437796432913,
+        "acuracia_validacao": 0.8333333333333334,
+        "f1_validacao": 0.7962962962962963
+      },
+      {
+        "epoca": 3,
+        "loss_treino": 0.002760419334259091,
+        "acuracia_treino": 1.0,
+        "loss_validacao": 1.1023483479123872,
+        "acuracia_validacao": 0.8333333333333334,
+        "f1_validacao": 0.8111111111111111
+      },
+      {
+        "epoca": 4,
+        "loss_treino": 0.0023849498781297975,
+        "acuracia_treino": 1.0,
+        "loss_validacao": 1.075185923972943,
+        "acuracia_validacao": 0.8333333333333334,
+        "f1_validacao": 0.8111111111111111
+      },
+      {
+        "epoca": 5,
+        "loss_treino": 0.0037312108712891736,
+        "acuracia_treino": 1.0,
+        "loss_validacao": 1.0492323479653958,
+        "acuracia_validacao": 0.8333333333333334,
+        "f1_validacao": 0.8111111111111111
+      },
+      {
+        "epoca": 6,
+        "loss_treino": 0.0026408581529890566,
+        "acuracia_treino": 1.0,
+        "loss_validacao": 1.0259947360803683,
+        "acuracia_validacao": 0.8333333333333334,
+        "f1_validacao": 0.7962962962962963
+      },
+      {
+        "epoca": 7,
+        "loss_treino": 0.0023303938387134286,
+        "acuracia_treino": 1.0,
+        "loss_validacao": 1.0045233472483233,
+        "acuracia_validacao": 0.8333333333333334,
+        "f1_validacao": 0.7962962962962963
+      },
+      {
+        "epoca": 8,
+        "loss_treino": 0.001497101983490952,
+        "acuracia_treino": 1.0,
+        "loss_validacao": 0.9855627669991615,
+        "acuracia_validacao": 0.8333333333333334,
+        "f1_validacao": 0.7962962962962963
+      }
+    ],
+    "observacao": "Accuracy, precision, recall e F1 macro consideram as categorias presentes no teste. A matriz usa todas as categorias do experimento. A seleção do checkpoint usou só a validação."
+  },
+  {
+    "modelo": "resnet18",
+    "etapa": "A",
+    "accuracy": 0.36363636363636365,
+    "precision": 0.1125,
+    "recall": 0.25,
+    "f1": 0.15476190476190477,
+    "f1_validacao": 0.32345679012345685,
+    "melhor_epoca": 6,
+    "segundos_treino": 33.3,
+    "segundos_inferencia_media": 0.0431,
+    "parametros_treinaveis": 4617,
+    "categorias_no_teste": [
+      "Arroz",
+      "Açúcar",
+      "Café",
+      "Farinhas e flocão",
+      "Feijão",
+      "Leite UHT",
+      "Macarrão",
+      "Óleo de soja"
+    ],
+    "categorias_ausentes_no_teste": [
+      "Manteiga"
+    ],
+    "matriz_confusao": [
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "rotulos_matriz": [
+      "Arroz",
+      "Açúcar",
+      "Café",
+      "Farinhas e flocão",
+      "Feijão",
+      "Leite UHT",
+      "Macarrão",
+      "Manteiga",
+      "Óleo de soja"
+    ],
+    "historico": [
+      {
+        "epoca": 1,
+        "loss_treino": 2.422196873912105,
+        "acuracia_treino": 0.12962962962962962,
+        "loss_validacao": 2.2784549991289773,
+        "acuracia_validacao": 0.16666666666666666,
+        "f1_validacao": 0.044444444444444446
+      },
+      {
+        "epoca": 2,
+        "loss_treino": 2.134800178033334,
+        "acuracia_treino": 0.14814814814814814,
+        "loss_validacao": 2.500033805767695,
+        "acuracia_validacao": 0.25,
+        "f1_validacao": 0.11851851851851852
+      },
+      {
+        "epoca": 3,
+        "loss_treino": 1.9382602285455774,
+        "acuracia_treino": 0.2962962962962963,
+        "loss_validacao": 2.270601029197375,
+        "acuracia_validacao": 0.25,
+        "f1_validacao": 0.09259259259259259
+      },
+      {
+        "epoca": 4,
+        "loss_treino": 1.7530132090603863,
+        "acuracia_treino": 0.37037037037037035,
+        "loss_validacao": 2.1310491611560187,
+        "acuracia_validacao": 0.25,
+        "f1_validacao": 0.15185185185185185
+      },
+      {
+        "epoca": 5,
+        "loss_treino": 1.7093795228887487,
+        "acuracia_treino": 0.3888888888888889,
+        "loss_validacao": 2.033636992176374,
+        "acuracia_validacao": 0.4166666666666667,
+        "f1_validacao": 0.25555555555555554
+      },
+      {
+        "epoca": 6,
+        "loss_treino": 1.4567413992351956,
+        "acuracia_treino": 0.6481481481481481,
+        "loss_validacao": 1.929694135983785,
+        "acuracia_validacao": 0.5,
+        "f1_validacao": 0.32345679012345685
+      },
+      {
+        "epoca": 7,
+        "loss_treino": 1.3896802398893568,
+        "acuracia_treino": 0.6481481481481481,
+        "loss_validacao": 1.8942303210496902,
+        "acuracia_validacao": 0.5,
+        "f1_validacao": 0.282010582010582
+      },
+      {
+        "epoca": 8,
+        "loss_treino": 1.2683362430996366,
+        "acuracia_treino": 0.7407407407407407,
+        "loss_validacao": 1.855404535929362,
+        "acuracia_validacao": 0.4166666666666667,
+        "f1_validacao": 0.291005291005291
+      },
+      {
+        "epoca": 9,
+        "loss_treino": 1.2712719043095906,
+        "acuracia_treino": 0.7407407407407407,
+        "loss_validacao": 1.9033313045899074,
+        "acuracia_validacao": 0.4166666666666667,
+        "f1_validacao": 0.26666666666666666
+      },
+      {
+        "epoca": 10,
+        "loss_treino": 1.113972791919002,
+        "acuracia_treino": 0.8148148148148148,
+        "loss_validacao": 1.8440857628981273,
+        "acuracia_validacao": 0.5,
+        "f1_validacao": 0.28148148148148144
+      },
+      {
+        "epoca": 11,
+        "loss_treino": 1.161268260743883,
+        "acuracia_treino": 0.7222222222222222,
+        "loss_validacao": 1.7924310540159543,
+        "acuracia_validacao": 0.4166666666666667,
+        "f1_validacao": 0.23333333333333334
+      }
+    ],
+    "observacao": "Accuracy, precision, recall e F1 macro consideram as categorias presentes no teste. A matriz usa todas as categorias do experimento. A seleção do checkpoint usou só a validação."
+  },
+  {
+    "modelo": "resnet18",
+    "etapa": "B",
+    "accuracy": 0.45454545454545453,
+    "precision": 0.35416666666666663,
+    "recall": 0.5,
+    "f1": 0.3958333333333333,
+    "f1_validacao": 0.2222222222222222,
+    "melhor_epoca": 1,
+    "segundos_treino": 25.0,
+    "segundos_inferencia_media": 0.0436,
+    "parametros_treinaveis": 8398345,
+    "categorias_no_teste": [
+      "Arroz",
+      "Açúcar",
+      "Café",
+      "Farinhas e flocão",
+      "Feijão",
+      "Leite UHT",
+      "Macarrão",
+      "Óleo de soja"
+    ],
+    "categorias_ausentes_no_teste": [
+      "Manteiga"
+    ],
+    "matriz_confusao": [
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "rotulos_matriz": [
+      "Arroz",
+      "Açúcar",
+      "Café",
+      "Farinhas e flocão",
+      "Feijão",
+      "Leite UHT",
+      "Macarrão",
+      "Manteiga",
+      "Óleo de soja"
+    ],
+    "historico": [
+      {
+        "epoca": 1,
+        "loss_treino": 1.284811015482302,
+        "acuracia_treino": 0.7037037037037037,
+        "loss_validacao": 1.74779661744833,
+        "acuracia_validacao": 0.3333333333333333,
+        "f1_validacao": 0.2222222222222222
+      },
+      {
+        "epoca": 2,
+        "loss_treino": 0.7236651248402066,
+        "acuracia_treino": 0.9259259259259259,
+        "loss_validacao": 1.7350491390873988,
+        "acuracia_validacao": 0.3333333333333333,
+        "f1_validacao": 0.2185185185185185
+      },
+      {
+        "epoca": 3,
+        "loss_treino": 0.5022999191725696,
+        "acuracia_treino": 0.9259259259259259,
+        "loss_validacao": 1.6377212482814987,
+        "acuracia_validacao": 0.3333333333333333,
+        "f1_validacao": 0.2185185185185185
+      },
+      {
+        "epoca": 4,
+        "loss_treino": 0.3313870275462115,
+        "acuracia_treino": 1.0,
+        "loss_validacao": 1.5619994948307674,
+        "acuracia_validacao": 0.3333333333333333,
+        "f1_validacao": 0.2185185185185185
+      },
+      {
+        "epoca": 5,
+        "loss_treino": 0.28767806733096085,
+        "acuracia_treino": 1.0,
+        "loss_validacao": 1.5422613224945962,
+        "acuracia_validacao": 0.3333333333333333,
+        "f1_validacao": 0.2185185185185185
+      },
+      {
+        "epoca": 6,
+        "loss_treino": 0.13281944118164205,
+        "acuracia_treino": 1.0,
+        "loss_validacao": 1.5110480484242241,
+        "acuracia_validacao": 0.3333333333333333,
+        "f1_validacao": 0.2
+      }
+    ],
+    "observacao": "Accuracy, precision, recall e F1 macro consideram as categorias presentes no teste. A matriz usa todas as categorias do experimento. A seleção do checkpoint usou só a validação."
+  }
+]

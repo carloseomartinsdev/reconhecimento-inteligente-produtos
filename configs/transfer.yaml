@@ -1,3 +1,5 @@
+# Este arquivo permanece com run_training desligado.
+# O experimento acadêmico é scripts/run_academic_experiment.py e usa as 9 categorias representadas.
 transfer:
   num_classes: 50
   stage_a:

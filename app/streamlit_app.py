@@ -112,14 +112,28 @@ def product_label(product) -> str:
     return f"{product.id} — {product.name} — {product.brand} — {product.quantity} {product.unit} — {product.variant or 'sem variante'}"
 
 
-def classify_saved_image(path: Path, checkpoint: dict) -> list[dict[str, object]]:
+def visual_checkpoint_path() -> Path:
+    experimental = ROOT / "models" / "brazilian" / "experiment_best.pt"
+    if experimental.exists():
+        return experimental
+    return ROOT / "models" / "brazilian" / "classifier.pt"
+
+
+@st.cache_resource
+def cached_classifier(path_text: str):
+    checkpoint = load_checkpoint(Path(path_text))
+    if checkpoint is None or checkpoint.get("task") != "categoria":
+        return None
+    labels = [str(label) for label in checkpoint["labels"]]
+    model = build_classifier_from_checkpoint(checkpoint, labels)
+    return model, labels, checkpoint
+
+
+def build_classifier_from_checkpoint(checkpoint: dict, labels: list[str]):
     import torch
-    from PIL import Image
 
     from classification.transfer import build_transfer_classifier
-    from preprocessing.transforms import build_eval_transform
 
-    labels = [str(label) for label in checkpoint["labels"]]
     model = build_transfer_classifier(
         checkpoint["architecture"],
         num_classes=len(labels),
@@ -128,6 +142,19 @@ def classify_saved_image(path: Path, checkpoint: dict) -> list[dict[str, object]
     )
     model.load_state_dict(checkpoint["state_dict"])
     model.eval()
+    return model
+
+
+def classify_saved_image(path: Path, checkpoint: dict) -> list[dict[str, object]]:
+    import torch
+    from PIL import Image
+
+    from preprocessing.transforms import build_eval_transform
+
+    loaded = cached_classifier(str(visual_checkpoint_path()))
+    if loaded is None:
+        return []
+    model, labels, _checkpoint = loaded
     with Image.open(path) as image:
         batch = build_eval_transform()(image.convert("RGB")).unsqueeze(0)
     with torch.no_grad():
@@ -150,7 +177,7 @@ def render_prices(store: Store, product_id: str) -> None:
     if len(records) > 3:
         st.caption(f"Mais {len(records) - 3} registro(s) no banco.")
     if any(record.offer_conditions == TEST_OFFER for record in records):
-        st.caption("Preço de teste no banco local. Não é coleta de mercado.")
+        st.caption("Preço demonstrativo. Não é coleta de mercado.")
 
 
 def open_prices(product_id: str) -> None:
@@ -206,7 +233,20 @@ def rank_category(path: Path, product_ids: set[str]) -> dict[str, float]:
 
 def page_scan(context: dict) -> None:
     st.title("Escanear")
-    st.caption("Envie a foto da embalagem. O app mostra produtos parecidos e os preços de teste do banco.")
+    st.caption(
+        "Este aplicativo é uma demonstração acadêmica de técnicas de visão computacional. "
+        "Os resultados são experimentais e foram obtidos utilizando um conjunto limitado de imagens."
+    )
+    checkpoint_path = visual_checkpoint_path()
+    loaded = cached_classifier(str(checkpoint_path))
+    if loaded is not None:
+        _model, labels, checkpoint = loaded
+        with st.expander("Modelo usado nesta tela"):
+            st.write(f"Arquitetura: {checkpoint.get('architecture')}")
+            st.write(f"Categorias de saída: {len(labels)}")
+            st.write("Entrada: 224 × 224")
+            st.write(f"Checkpoint: {checkpoint_path.name}")
+            st.write(f"Etapa: {checkpoint.get('stage', 'demonstração')}")
     camera = st.camera_input("Capturar imagem", key="camera_produto")
     upload = st.file_uploader(
         "Ou escolher uma foto",
@@ -221,7 +261,7 @@ def page_scan(context: dict) -> None:
         if issues:
             st.dataframe(pd.DataFrame(issues), width="stretch")
         else:
-            checkpoint_path = ROOT / "models" / "brazilian" / "classifier.pt"
+            checkpoint_path = visual_checkpoint_path()
             checkpoint = load_checkpoint(checkpoint_path)
             if checkpoint is None or checkpoint.get("task") != "categoria":
                 st.warning("O classificador de categoria ainda não foi gravado.")

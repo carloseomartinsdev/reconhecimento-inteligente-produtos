@@ -1,0 +1,55 @@
+produto,arquivo,categoria,grupo_origem,papel
+BR0001,images/BR0001/1.jpg,Arroz,7896800777715:1,nao_indicado
+BR0001,images/BR0001/2.jpg,Arroz,7896800777715:2,nao_indicado
+BR0001,images/BR0001/4.jpg,Arroz,7896800777715:4,nao_indicado
+BR0002,images/BR0002/2.jpg,Arroz,7891986001395:2,front
+BR0003,images/BR0003/1.jpg,Arroz,00948906:1,front
+BR0004,images/BR0004/2.jpg,Arroz,7896079441119:2,nao_indicado
+BR0004,images/BR0004/4.jpg,Arroz,7896079441119:4,nao_indicado
+BR0004,images/BR0004/5.jpg,Arroz,7896079441119:5,nao_indicado
+BR0005,images/BR0005/1.jpg,Arroz,7896084700492:1,front
+BR0006,images/BR0006/1.jpg,Arroz,7896011900049:1,front
+BR0007,images/BR0007/2.jpg,Feijão,7890300155929:2,front
+BR0008,images/BR0008/1.jpg,Feijão,7898257600059:1,front
+BR0012,images/BR0012/1.jpg,Açúcar,7898916030579:1,front
+BR0013,images/BR0013/1.jpg,Açúcar,7896283000010:1,front
+BR0014,images/BR0014/2.jpg,Açúcar,7898935435041:2,front
+BR0015,images/BR0015/2.jpg,Café,7891021006125:2,front
+BR0015,images/BR0015/4.jpg,Café,7891021006125:4,nao_indicado
+BR0015,images/BR0015/5.jpg,Café,7891021006125:5,nao_indicado
+BR0016,images/BR0016/1.jpg,Café,7896005800010:1,nao_indicado
+BR0016,images/BR0016/2.jpg,Café,7896005800010:2,nao_indicado
+BR0016,images/BR0016/3.jpg,Café,7896005800010:3,front
+BR0017,images/BR0017/1.jpg,Café,7891000076392:1,nao_indicado
+BR0018,images/BR0018/1.jpg,Leite UHT,7898215151708:1,nao_indicado
+BR0018,images/BR0018/3.jpg,Leite UHT,7898215151708:3,nao_indicado
+BR0018,images/BR0018/4.jpg,Leite UHT,7898215151708:4,nao_indicado
+BR0019,images/BR0019/1.jpg,Leite UHT,7896348841480:1,front
+BR0020,images/BR0020/1.jpg,Leite UHT,7898290430910:1,front
+BR0021,images/BR0021/1.jpg,Leite UHT,7896283800221:1,nao_indicado
+BR0021,images/BR0021/3.jpg,Leite UHT,7896283800221:3,front
+BR0022,images/BR0022/2.jpg,Leite UHT,7898215151722:2,nao_indicado
+BR0022,images/BR0022/3.jpg,Leite UHT,7898215151722:3,nao_indicado
+BR0022,images/BR0022/4.jpg,Leite UHT,7898215151722:4,front
+BR0023,images/BR0023/1.jpg,Leite UHT,7898290430958:1,front
+BR0024,images/BR0024/2.jpg,Óleo de soja,7891107101621:2,nao_indicado
+BR0024,images/BR0024/3.jpg,Óleo de soja,7891107101621:3,nao_indicado
+BR0024,images/BR0024/5.jpg,Óleo de soja,7891107101621:5,front
+BR0025,images/BR0025/1.jpg,Óleo de soja,7898247780075:1,nao_indicado
+BR0025,images/BR0025/2.jpg,Óleo de soja,7898247780075:2,nao_indicado
+BR0025,images/BR0025/3.jpg,Óleo de soja,7898247780075:3,nao_indicado
+BR0026,images/BR0026/1.jpg,Farinhas e flocão,7897932900149:1,nao_indicado
+BR0026,images/BR0026/4.jpg,Farinhas e flocão,7897932900149:4,front
+BR0027,images/BR0027/1.jpg,Farinhas e flocão,7896333200018:1,front
+BR0027,images/BR0027/2.jpg,Farinhas e flocão,7896333200018:2,nao_indicado
+BR0030,images/BR0030/1.jpg,Farinhas e flocão,7898206501956:1,front
+BR0031,images/BR0031/1.jpg,Farinhas e flocão,7891095300372:1,front
+BR0031,images/BR0031/3.jpg,Farinhas e flocão,7891095300372:3,front
+BR0032,images/BR0032/1.jpg,Macarrão,7896021314256:1,front
+BR0032,images/BR0032/2.jpg,Macarrão,7896021314256:2,nao_indicado
+BR0032,images/BR0032/4.jpg,Macarrão,7896021314256:4,nao_indicado
+BR0033,images/BR0033/1.jpg,Macarrão,7896412800634:1,front
+BR0034,images/BR0034/1.jpg,Macarrão,7898951850064:1,nao_indicado
+BR0034,images/BR0034/2.jpg,Macarrão,7898951850064:2,front
+BR0035,images/BR0035/4.jpg,Macarrão,7896412800863:4,packaging
+BR0037,images/BR0037/1.jpg,Manteiga,7896331100310:1,front

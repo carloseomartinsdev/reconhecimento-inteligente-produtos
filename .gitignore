@@ -81,6 +81,28 @@ results/predictions/**
 !data/processed/brazilian_embeddings.pt
 !data/prices/market.sqlite
 
+# Experimento acadêmico: divisões, métricas, figuras e checkpoints
+!data/splits/academico_s42.json
+!data/splits/academico_s42_treino.csv
+!data/splits/academico_s42_validacao.csv
+!data/splits/academico_s42_teste.csv
+!results/metrics/dataset_summary.json
+!results/metrics/model_comparison.csv
+!results/metrics/model_comparison.json
+!results/figures/imagens_por_categoria.png
+!results/figures/produtos_por_categoria.png
+!results/figures/exemplos_dataset.png
+!results/figures/preprocessamento.png
+!results/figures/curvas_mobilenet_v3_large.png
+!results/figures/curvas_resnet18.png
+!results/figures/matriz_confusao_teste.png
+!results/figures/comparacao_modelos.png
+!models/brazilian/experiment_best.pt
+!models/brazilian/mobilenet_v3_large_etapa_A.pt
+!models/brazilian/mobilenet_v3_large_etapa_B.pt
+!models/brazilian/resnet18_etapa_A.pt
+!models/brazilian/resnet18_etapa_B.pt
+
 # Sistema
 .DS_Store
 Thumbs.db

@@ -1,0 +1,47 @@
+{
+  "split_id": "academico-grupos-s42",
+  "seed": 42,
+  "estrategia": "Grupos de origem permanecem inteiros. Dentro de cada categoria, cerca de 70% vai ao treino, 15% à validação e 15% ao teste, com ao menos um grupo em cada conjunto quando existem três ou mais.",
+  "limitacoes": [
+    "Manteiga: 2 grupo(s) de origem. Não há amostra independente para todos os conjuntos."
+  ],
+  "quantidades": {
+    "treino": 54,
+    "validacao": 12,
+    "teste": 11
+  },
+  "categorias": {
+    "treino": {
+      "Arroz": 10,
+      "Açúcar": 3,
+      "Café": 7,
+      "Farinhas e flocão": 7,
+      "Feijão": 2,
+      "Leite UHT": 11,
+      "Macarrão": 7,
+      "Manteiga": 1,
+      "Óleo de soja": 6
+    },
+    "validacao": {
+      "Arroz": 2,
+      "Açúcar": 1,
+      "Café": 1,
+      "Farinhas e flocão": 2,
+      "Feijão": 1,
+      "Leite UHT": 2,
+      "Macarrão": 1,
+      "Manteiga": 1,
+      "Óleo de soja": 1
+    },
+    "teste": {
+      "Arroz": 2,
+      "Açúcar": 1,
+      "Café": 1,
+      "Farinhas e flocão": 2,
+      "Feijão": 1,
+      "Leite UHT": 2,
+      "Macarrão": 1,
+      "Óleo de soja": 1
+    }
+  }
+}
