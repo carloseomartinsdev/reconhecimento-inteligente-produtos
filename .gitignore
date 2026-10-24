@@ -17,6 +17,7 @@ data/public/downloads/
 data/processed/**
 !data/processed/.gitkeep
 !data/processed/README.md
+!data/processed/brazilian_embeddings.pt
 data/splits/**
 !data/splits/.gitkeep
 !data/splits/README.md
@@ -28,17 +29,16 @@ data/custom/annotations/**
 !data/custom/annotations/.gitkeep
 
 # Catálogo brasileiro e banco de preços local
-data/brazilian_products/images/**
-!data/brazilian_products/images/.gitkeep
 data/brazilian_products/labels/**
 !data/brazilian_products/labels/.gitkeep
-data/prices/*.sqlite
 data/prices/*.sqlite-*
 
 # Pesos, logs de treino e saídas experimentais
 models/**
 !models/.gitkeep
 !models/README.md
+!models/brazilian/
+!models/brazilian/classifier.pt
 experiments/**
 !experiments/.gitkeep
 !experiments/README.md
@@ -71,6 +71,15 @@ results/predictions/**
 *.tar.gz
 *.7z
 *.rar
+
+# Arquivos exigidos para o escaneamento funcionar a partir do clone
+!data/brazilian_products/images/**/*.jpg
+!data/brazilian_products/images/**/*.jpeg
+!data/brazilian_products/images/**/*.png
+!data/brazilian_products/images/**/*.webp
+!models/brazilian/classifier.pt
+!data/processed/brazilian_embeddings.pt
+!data/prices/market.sqlite
 
 # Sistema
 .DS_Store

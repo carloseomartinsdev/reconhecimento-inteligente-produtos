@@ -35,7 +35,7 @@ Fora dessa trava, a pedido de fazer o escaneamento funcionar com as fotos existe
 
 ## Interface
 
-O Streamlit importa o catálogo validado para o SQLite. Na abertura, grava cinco preços de teste por produto, com a condição da oferta informando que não são coleta de mercado. Com `models/brazilian/classifier.pt`, a tela de escanear mostra a categoria e os produtos dessa categoria, com a imagem de referência e o preço de teste. Sem o arquivo de pesos, a tela não mostra candidato. O banco e os pesos não entram no Git.
+O Streamlit importa o catálogo validado para o SQLite. Na abertura, grava cinco preços de teste por produto, com a condição da oferta informando que não são coleta de mercado. O arquivo `models/brazilian/classifier.pt` e as fotos do catálogo acompanham o repositório, e a tela de escanear mostra a categoria, a imagem de referência e o preço.
 
 ## Testes
 

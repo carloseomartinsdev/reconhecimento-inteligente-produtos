@@ -55,7 +55,7 @@ As versões resolvidas nesta instalação estão em `requirements.lock.txt`.
 
 ## Como executar
 
-A aplicação abre em http://localhost:8501, direto na tela de escanear.
+A aplicação abre em http://localhost:8501, direto na tela de escanear. As fotos do catálogo e o classificador em `models/brazilian/classifier.pt` já acompanham o projeto.
 
 ```powershell
 .\.venv\Scripts\python.exe -m streamlit run app\streamlit_app.py
