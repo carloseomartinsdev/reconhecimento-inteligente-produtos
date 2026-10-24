@@ -1,0 +1,33 @@
+# Plano de subconjunto. Nenhuma imagem foi selecionada nesta fase.
+# A lista concreta de SKUs só será congelada depois do JSON oficial
+# e da escolha dos produtos fotografados.
+
+subset_plan:
+  status: proposed
+  frozen: false
+  rationale: >
+    O RPC publicado tem 83.739 imagens e cerca de 16 GB.
+    Um subconjunto estratificado torna os experimentos reprodutíveis
+    no tempo disponível de uma disciplina, desde que a regra de seleção
+    fique registrada antes do treino.
+  classification:
+    source: exemplares train2019
+    target_skus: 20
+    stratification: supercategory
+    max_images_per_sku: 80
+    view_policy: >
+      Separar grupos de câmera e ângulo. Vistas vizinhas do mesmo SKU
+      e da mesma câmera permanecem no mesmo split por meio do campo
+      capture_group.
+  detection:
+    source: val2019
+    target_images: 600
+    stratification: clutter_level_if_recoverable
+    holdout: >
+      O test2019 oficial permanece intocado até a avaliação final,
+      se os arquivos forem obtidos.
+  custom:
+    products: 15
+    images_per_product: 60
+    scene_images_minimum: 45
+  output_when_ready: data/splits/subset_manifest.csv

@@ -1,0 +1,86 @@
+# Desenho experimental. Não contém resultados.
+
+experiments_plan:
+  E1:
+    name: "Comparação MobileNetV3-Large e ResNet18"
+    task: classification
+    protocol: P-CLS-exemplar
+    models: [A, B]
+    fixed:
+      - mesma partição
+      - mesmo preset baseline_imagenet
+      - mesma semente
+      - mesmo orçamento de épocas
+      - mesma decisão de inicialização ImageNet
+    metrics: [accuracy, precision_macro, recall_macro, f1_macro, confusion_matrix]
+  E2:
+    name: "Influência do pré-processamento"
+    task: classification
+    protocol: P-CLS-exemplar
+    factors: [baseline_imagenet, letterbox, clahe, equalize, identity_scale]
+    control: "Uma arquitetura é escolhida após o E1 e permanece fixa."
+    metrics: [accuracy, f1_macro]
+  E3:
+    name: "Desempenho do YOLO"
+    task: detection
+    protocol: P-DET-checkout
+    model: C
+    metrics: [map50, map50_95, precision, recall, latency_ms, parameter_count]
+  E4:
+    name: "YOLO e arquitetura híbrida"
+    task: detection_and_classification
+    protocol: P-HYB-checkout
+    models: [C, D]
+    fairness:
+      - mesmas imagens
+      - mesmas caixas candidatas no híbrido
+      - o híbrido substitui o rótulo da caixa pela CNN
+    metrics: [map50, map50_95, crop_accuracy, latency_ms]
+  E5:
+    name: "Robustez nas condições de captura"
+    task: classification_and_detection
+    protocol: P-CUSTOM
+    factors: [angle, distance, lighting, background, density]
+    metrics: [accuracy_by_factor, f1_macro_by_factor, map50_by_density]
+  E6:
+    name: "Generalização entre imagens públicas e fotografias próprias"
+    task: cross_source
+    protocol: P-CROSS
+    rule: "Sem correspondência registrada em class_mapping.csv, os experimentos permanecem separados."
+    metrics: [accuracy_within_source, map50_within_source]
+  E12:
+    name: "Transfer learning no dataset brasileiro"
+    task: classification
+    status: desenhado
+    models: [mobilenet_v3_large, resnet18, embedding_pretrained]
+    rule: "Não executar enquanto o relatório do dataset não marcar completo e o download dos pesos não estiver autorizado."
+    metrics: [top1, top3, top5, precision_macro, recall_macro, f1_macro, confusion_matrix, latency_ms]
+  E7:
+    name: "Precisão do OCR de etiquetas"
+    task: ocr
+    status: desenhado
+    metrics: [candidate_precision, candidate_recall, confirmation_rate]
+  E8:
+    name: "Média versus mediana"
+    task: pricing
+    status: desenhado
+    factor: valores extremos
+    metrics: [classification_change_rate, percent_vs_mean, percent_vs_median]
+  E9:
+    name: "Atualização dos preços"
+    task: pricing
+    status: desenhado
+    factor: idade máxima dos registros
+    metrics: [sample_size, classification_change_rate]
+  E10:
+    name: "Qualidade da comparação"
+    task: pricing
+    status: desenhado
+    factors: [quantidade de registros, número de estabelecimentos, mistura promocional]
+    metrics: [insufficient_rate, classification]
+  E11:
+    name: "Fluxo integrado"
+    task: vision_ocr_pricing
+    status: desenhado
+    steps: [imagem, produto, preco, comparacao]
+    errors_separated: [reconhecimento_visual, leitura_de_preco, associacao_comercial, calculo_estatistico]

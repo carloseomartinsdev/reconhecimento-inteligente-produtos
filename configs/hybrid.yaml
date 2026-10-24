@@ -1,0 +1,10 @@
+# O classificador do híbrido é o mesmo treinado como Modelo A ou B.
+# A escolha definitiva entre MobileNetV3-Large e ResNet18 depende do E1.
+
+hybrid:
+  model_id: D
+  detector_architecture: yolo11n
+  classifier_architecture: mobilenet_v3_large
+  crop_margin: 0.08
+  min_crop_side: 32
+  score_fusion: detector_confidence_times_classifier_probability

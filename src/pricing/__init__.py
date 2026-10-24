@@ -1,0 +1,1 @@
+"""Comparação estatística de preços."""

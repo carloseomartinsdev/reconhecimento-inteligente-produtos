@@ -1,0 +1,12 @@
+{
+  "status": "parcial",
+  "consultado_em": "2026-10-24",
+  "catalogo": "products.json",
+  "cotas_nao_preenchidas": [
+    {"categoria": "Feijão", "pedido": 6, "validado": 4},
+    {"categoria": "Café", "pedido": 6, "validado": 3},
+    {"categoria": "Leite em pó", "pedido": 4, "validado": 0},
+    {"categoria": "Óleo de soja", "pedido": 4, "validado": 2},
+    {"categoria": "Sal", "pedido": 2, "validado": 0}
+  ]
+}

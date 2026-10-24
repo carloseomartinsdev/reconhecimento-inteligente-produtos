@@ -1,0 +1,1190 @@
+{
+  "completo": false,
+  "produtos_no_catalogo": 37,
+  "produtos_com_minimo_de_imagens": 14,
+  "imagens_validas": 117,
+  "minimo_de_imagens": 200,
+  "meta_de_imagens": 250,
+  "cotas": {
+    "Arroz": {
+      "pedido": 6,
+      "validado": 6
+    },
+    "Feijão": {
+      "pedido": 6,
+      "validado": 4
+    },
+    "Açúcar": {
+      "pedido": 4,
+      "validado": 4
+    },
+    "Café": {
+      "pedido": 6,
+      "validado": 3
+    },
+    "Leite UHT": {
+      "pedido": 6,
+      "validado": 6
+    },
+    "Leite em pó": {
+      "pedido": 4,
+      "validado": 0
+    },
+    "Óleo de soja": {
+      "pedido": 4,
+      "validado": 2
+    },
+    "Farinhas e flocão": {
+      "pedido": 6,
+      "validado": 6
+    },
+    "Macarrão": {
+      "pedido": 4,
+      "validado": 4
+    },
+    "Sal": {
+      "pedido": 2,
+      "validado": 0
+    },
+    "Manteiga": {
+      "pedido": 2,
+      "validado": 2
+    }
+  },
+  "produtos": [
+    {
+      "id": "BR0001",
+      "categoria": "Arroz",
+      "nome": "Arroz Integral",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 5,
+      "imagens_validas": 5,
+      "minimo": 4,
+      "atingiu_minimo": true,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0002",
+      "categoria": "Arroz",
+      "nome": "Arroz Branco",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 2,
+      "imagens_validas": 2,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0003",
+      "categoria": "Arroz",
+      "nome": "Arroz integral",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 4,
+      "imagens_validas": 4,
+      "minimo": 4,
+      "atingiu_minimo": true,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0004",
+      "categoria": "Arroz",
+      "nome": "Arroz parboilizado",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 5,
+      "imagens_validas": 5,
+      "minimo": 4,
+      "atingiu_minimo": true,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0005",
+      "categoria": "Arroz",
+      "nome": "Arroz Campeiro Parboilizado",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 3,
+      "imagens_validas": 3,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0006",
+      "categoria": "Arroz",
+      "nome": "Arroz parboilizado",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 3,
+      "imagens_validas": 3,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0007",
+      "categoria": "Feijão",
+      "nome": "Feijão Preto",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 2,
+      "imagens_validas": 2,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0008",
+      "categoria": "Feijão",
+      "nome": "Feijão",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 2,
+      "imagens_validas": 2,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0009",
+      "categoria": "Feijão",
+      "nome": "Feijão Carioca Tipo 1 Pantera Premium Pacote 1kg",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 1,
+      "imagens_validas": 1,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0010",
+      "categoria": "Feijão",
+      "nome": "Feijão Tipo I",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 2,
+      "imagens_validas": 2,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0011",
+      "categoria": "Açúcar",
+      "nome": "União Refinado",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 2,
+      "imagens_validas": 2,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0012",
+      "categoria": "Açúcar",
+      "nome": "Açúcar mascavo",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 3,
+      "imagens_validas": 3,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0013",
+      "categoria": "Açúcar",
+      "nome": "acúcar mascavo",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 3,
+      "imagens_validas": 3,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0014",
+      "categoria": "Açúcar",
+      "nome": "Açúcar Demerara",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 2,
+      "imagens_validas": 2,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0015",
+      "categoria": "Café",
+      "nome": "Café Torrado E Moído Tradicional Melitta Caixa 500g",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 5,
+      "imagens_validas": 5,
+      "minimo": 4,
+      "atingiu_minimo": true,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0016",
+      "categoria": "Café",
+      "nome": "Café Torrado E Moído Tradicional 3 Corações Pacote 500g",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 3,
+      "imagens_validas": 3,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0017",
+      "categoria": "Café",
+      "nome": "Cappuccino Solúvel Tradicional Nescafé Lata 200g",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 2,
+      "imagens_validas": 2,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0018",
+      "categoria": "Leite UHT",
+      "nome": "Leite Integral Piracanjuba",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 5,
+      "imagens_validas": 5,
+      "minimo": 4,
+      "atingiu_minimo": true,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0019",
+      "categoria": "Leite UHT",
+      "nome": "Leite UHT Integral",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 4,
+      "imagens_validas": 4,
+      "minimo": 4,
+      "atingiu_minimo": true,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0020",
+      "categoria": "Leite UHT",
+      "nome": "Leite Uht Integral Colônia Holandesa Caixa 1l",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 1,
+      "imagens_validas": 1,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0021",
+      "categoria": "Leite UHT",
+      "nome": "Leite Uht Integral Jussara Caixa 1l",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 3,
+      "imagens_validas": 3,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0022",
+      "categoria": "Leite UHT",
+      "nome": "Leite Desnatado Caixa",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 5,
+      "imagens_validas": 4,
+      "minimo": 4,
+      "atingiu_minimo": true,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0023",
+      "categoria": "Leite UHT",
+      "nome": "Leite Uht Desnatado Colônia Holandesa Caixa 1l",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 1,
+      "imagens_validas": 1,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0024",
+      "categoria": "Óleo de soja",
+      "nome": "SOYA Óleo de Soja",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 5,
+      "imagens_validas": 5,
+      "minimo": 4,
+      "atingiu_minimo": true,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0025",
+      "categoria": "Óleo de soja",
+      "nome": "Óleo de soja",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 5,
+      "imagens_validas": 4,
+      "minimo": 4,
+      "atingiu_minimo": true,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0026",
+      "categoria": "Farinhas e flocão",
+      "nome": "Farinha de trigo tipo 1",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 5,
+      "imagens_validas": 5,
+      "minimo": 4,
+      "atingiu_minimo": true,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0027",
+      "categoria": "Farinhas e flocão",
+      "nome": "Bonomilho - Farinha de milho flocada - Cuzcuz",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 4,
+      "imagens_validas": 4,
+      "minimo": 4,
+      "atingiu_minimo": true,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0028",
+      "categoria": "Farinhas e flocão",
+      "nome": "Farinha de trigo integral",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 3,
+      "imagens_validas": 3,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0029",
+      "categoria": "Farinhas e flocão",
+      "nome": "Farinha de Coco Sem Gluten",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 3,
+      "imagens_validas": 3,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0030",
+      "categoria": "Farinhas e flocão",
+      "nome": "Farinha De Aveia Orgânica Native Caixa 300g",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 1,
+      "imagens_validas": 1,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0031",
+      "categoria": "Farinhas e flocão",
+      "nome": "Farinha De Mandioca Tipo 1 Yoki Pacote 500g",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 3,
+      "imagens_validas": 3,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0032",
+      "categoria": "Macarrão",
+      "nome": "Macarrão Espaguete 8",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 5,
+      "imagens_validas": 5,
+      "minimo": 4,
+      "atingiu_minimo": true,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0033",
+      "categoria": "Macarrão",
+      "nome": "Espaguete de sêmola",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 3,
+      "imagens_validas": 3,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0034",
+      "categoria": "Macarrão",
+      "nome": "Macarrão Com Ovos Espaguete 8 Barilla Pacote 500g",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 4,
+      "imagens_validas": 4,
+      "minimo": 4,
+      "atingiu_minimo": true,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0035",
+      "categoria": "Macarrão",
+      "nome": "Massa Alimentícia com Ovos",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 4,
+      "imagens_validas": 4,
+      "minimo": 4,
+      "atingiu_minimo": true,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0036",
+      "categoria": "Manteiga",
+      "nome": "Manteiga sem sal",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 3,
+      "imagens_validas": 3,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    },
+    {
+      "id": "BR0037",
+      "categoria": "Manteiga",
+      "nome": "Manteiga Aviação",
+      "status_comercial": "validado",
+      "imagens_no_manifesto": 3,
+      "imagens_validas": 3,
+      "minimo": 4,
+      "atingiu_minimo": false,
+      "conteudo_revisado_manualmente": false
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "images/BR0001/1.jpg",
+      "produto": "BR0001",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0001/2.jpg",
+      "produto": "BR0001",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0001/3.jpg",
+      "produto": "BR0001",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0001/4.jpg",
+      "produto": "BR0001",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0001/5.jpg",
+      "produto": "BR0001",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0002/1.jpg",
+      "produto": "BR0002",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0002/2.jpg",
+      "produto": "BR0002",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0003/1.jpg",
+      "produto": "BR0003",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0003/2.jpg",
+      "produto": "BR0003",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0003/3.jpg",
+      "produto": "BR0003",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0003/4.jpg",
+      "produto": "BR0003",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0004/1.jpg",
+      "produto": "BR0004",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0004/2.jpg",
+      "produto": "BR0004",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0004/3.jpg",
+      "produto": "BR0004",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0004/4.jpg",
+      "produto": "BR0004",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0004/5.jpg",
+      "produto": "BR0004",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0005/1.jpg",
+      "produto": "BR0005",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0005/2.jpg",
+      "produto": "BR0005",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0005/3.jpg",
+      "produto": "BR0005",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0006/1.jpg",
+      "produto": "BR0006",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0006/2.jpg",
+      "produto": "BR0006",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0006/3.jpg",
+      "produto": "BR0006",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0007/1.jpg",
+      "produto": "BR0007",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0007/2.jpg",
+      "produto": "BR0007",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0008/1.jpg",
+      "produto": "BR0008",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0008/2.jpg",
+      "produto": "BR0008",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0009/1.jpg",
+      "produto": "BR0009",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0010/1.jpg",
+      "produto": "BR0010",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0010/2.jpg",
+      "produto": "BR0010",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0011/1.jpg",
+      "produto": "BR0011",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0011/2.jpg",
+      "produto": "BR0011",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0012/1.jpg",
+      "produto": "BR0012",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0012/2.jpg",
+      "produto": "BR0012",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0012/3.jpg",
+      "produto": "BR0012",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0013/1.jpg",
+      "produto": "BR0013",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0013/2.jpg",
+      "produto": "BR0013",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0013/3.jpg",
+      "produto": "BR0013",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0014/1.jpg",
+      "produto": "BR0014",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0014/2.jpg",
+      "produto": "BR0014",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0015/1.jpg",
+      "produto": "BR0015",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0015/2.jpg",
+      "produto": "BR0015",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0015/3.jpg",
+      "produto": "BR0015",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0015/4.jpg",
+      "produto": "BR0015",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0015/5.jpg",
+      "produto": "BR0015",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0016/1.jpg",
+      "produto": "BR0016",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0016/2.jpg",
+      "produto": "BR0016",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0016/3.jpg",
+      "produto": "BR0016",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0017/1.jpg",
+      "produto": "BR0017",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0017/2.jpg",
+      "produto": "BR0017",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0018/1.jpg",
+      "produto": "BR0018",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0018/2.jpg",
+      "produto": "BR0018",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0018/3.jpg",
+      "produto": "BR0018",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0018/4.jpg",
+      "produto": "BR0018",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0018/5.jpg",
+      "produto": "BR0018",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0019/1.jpg",
+      "produto": "BR0019",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0019/2.jpg",
+      "produto": "BR0019",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0019/3.jpg",
+      "produto": "BR0019",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0019/4.jpg",
+      "produto": "BR0019",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0020/1.jpg",
+      "produto": "BR0020",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0021/1.jpg",
+      "produto": "BR0021",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0021/2.jpg",
+      "produto": "BR0021",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0021/3.jpg",
+      "produto": "BR0021",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0022/1.jpg",
+      "produto": "BR0022",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0022/2.jpg",
+      "produto": "BR0022",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0022/3.jpg",
+      "produto": "BR0022",
+      "aceita": false,
+      "motivos": [
+        {
+          "code": "resolucao_insuficiente",
+          "message": "150x400"
+        }
+      ]
+    },
+    {
+      "arquivo": "images/BR0022/4.jpg",
+      "produto": "BR0022",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0022/5.jpg",
+      "produto": "BR0022",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0023/1.jpg",
+      "produto": "BR0023",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0024/1.jpg",
+      "produto": "BR0024",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0024/2.jpg",
+      "produto": "BR0024",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0024/3.jpg",
+      "produto": "BR0024",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0024/4.jpg",
+      "produto": "BR0024",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0024/5.jpg",
+      "produto": "BR0024",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0025/1.jpg",
+      "produto": "BR0025",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0025/2.jpg",
+      "produto": "BR0025",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0025/3.jpg",
+      "produto": "BR0025",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0025/4.jpg",
+      "produto": "BR0025",
+      "aceita": false,
+      "motivos": [
+        {
+          "code": "duplicata_visual",
+          "message": "images/BR0025/2.jpg"
+        }
+      ]
+    },
+    {
+      "arquivo": "images/BR0025/5.jpg",
+      "produto": "BR0025",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0026/1.jpg",
+      "produto": "BR0026",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0026/2.jpg",
+      "produto": "BR0026",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0026/3.jpg",
+      "produto": "BR0026",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0026/4.jpg",
+      "produto": "BR0026",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0026/5.jpg",
+      "produto": "BR0026",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0027/1.jpg",
+      "produto": "BR0027",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0027/2.jpg",
+      "produto": "BR0027",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0027/3.jpg",
+      "produto": "BR0027",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0027/4.jpg",
+      "produto": "BR0027",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0028/1.jpg",
+      "produto": "BR0028",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0028/2.jpg",
+      "produto": "BR0028",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0028/3.jpg",
+      "produto": "BR0028",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0029/1.jpg",
+      "produto": "BR0029",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0029/2.jpg",
+      "produto": "BR0029",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0029/3.jpg",
+      "produto": "BR0029",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0030/1.jpg",
+      "produto": "BR0030",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0031/1.jpg",
+      "produto": "BR0031",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0031/2.jpg",
+      "produto": "BR0031",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0031/3.jpg",
+      "produto": "BR0031",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0032/1.jpg",
+      "produto": "BR0032",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0032/2.jpg",
+      "produto": "BR0032",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0032/3.jpg",
+      "produto": "BR0032",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0032/4.jpg",
+      "produto": "BR0032",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0032/5.jpg",
+      "produto": "BR0032",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0033/1.jpg",
+      "produto": "BR0033",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0033/2.jpg",
+      "produto": "BR0033",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0033/3.jpg",
+      "produto": "BR0033",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0034/1.jpg",
+      "produto": "BR0034",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0034/2.jpg",
+      "produto": "BR0034",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0034/3.jpg",
+      "produto": "BR0034",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0034/4.jpg",
+      "produto": "BR0034",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0035/1.jpg",
+      "produto": "BR0035",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0035/2.jpg",
+      "produto": "BR0035",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0035/3.jpg",
+      "produto": "BR0035",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0035/4.jpg",
+      "produto": "BR0035",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0036/1.jpg",
+      "produto": "BR0036",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0036/2.jpg",
+      "produto": "BR0036",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0036/3.jpg",
+      "produto": "BR0036",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0037/1.jpg",
+      "produto": "BR0037",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0037/2.jpg",
+      "produto": "BR0037",
+      "aceita": true,
+      "motivos": []
+    },
+    {
+      "arquivo": "images/BR0037/3.jpg",
+      "produto": "BR0037",
+      "aceita": true,
+      "motivos": []
+    }
+  ],
+  "limitacao": "A revisão visual de cada embalagem não foi feita imagem por imagem. O validador confere arquivo, licença, origem, resolução e duplicata."
+}

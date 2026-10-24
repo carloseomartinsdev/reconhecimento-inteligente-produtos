@@ -1,0 +1,16 @@
+{
+  "papel": "exemplo_de_esquema",
+  "aprovado_para_coleta": false,
+  "observacao": "Ilustra os campos previstos. Não é um produto cadastrado, não autoriza fotografia nem coleta e não traz código de barras.",
+  "produto": {
+    "id": "BR0001",
+    "nome": "Coca-Cola",
+    "marca": "Coca-Cola",
+    "categoria": "Bebidas",
+    "quantidade": 350,
+    "unidade": "ml",
+    "variante": "Original",
+    "codigo_barras": null,
+    "ativo": true
+  }
+}

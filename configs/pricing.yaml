@@ -1,0 +1,12 @@
+pricing:
+  reference: median
+  bands:
+    excellent_below: -10
+    good_below: -3
+    within_until: 5
+    above_until: 15
+  reliability:
+    min_records: 5
+    max_age_days: 90
+    min_establishments: 3
+    regular_only: true

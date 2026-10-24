@@ -1,0 +1,14 @@
+{
+  "fontes": [
+    {
+      "nome": "Open Food Facts",
+      "termos": "https://world.openfoodfacts.org/terms-of-use",
+      "licenca_imagens": "CC BY-SA",
+      "licenca_dados": "ODbL e DbCL",
+      "atribuicao": "Link para a página do produto e menção da licença CC BY-SA.",
+      "limite": "A licença da fotografia não elimina direitos de marca e de arte da embalagem.",
+      "coleta_executada": true,
+      "scraping_comercial": false
+    }
+  ]
+}

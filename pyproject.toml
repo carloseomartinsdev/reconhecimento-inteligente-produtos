@@ -1,0 +1,11 @@
+[project]
+name = "reconhecimento-inteligente-produtos"
+version = "0.1.0"
+description = "Sistema híbrido de reconhecimento de produtos comerciais para a disciplina de Visão Computacional."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"

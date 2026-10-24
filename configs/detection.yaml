@@ -1,0 +1,16 @@
+# Valores iniciais planejados. Nenhum peso é baixado na fase 1.
+
+detection:
+  model_id: C
+  framework: ultralytics
+  architecture: yolo11n
+  weights: null
+  image_size: 640
+  confidence_threshold: 0.25
+  iou_threshold: 0.5
+  batch_size:
+    cpu: 4
+    gpu: 16
+  schedule:
+    max_epochs: 50
+    early_stopping_patience: 10

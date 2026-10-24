@@ -1,0 +1,39 @@
+project:
+  name: reconhecimento-inteligente-produtos
+  discipline: "Visão Computacional: Técnicas e Aplicações"
+  phase: "2.2"
+  seed: 42
+
+runtime:
+  prefer_gpu: true
+  deterministic: true
+
+paths:
+  data_public: data/public
+  data_custom: data/custom
+  data_processed: data/processed
+  data_splits: data/splits
+  rpc_root: data/public/rpc
+  models: models
+  experiments: experiments
+  results: results
+  catalog_rpc: configs/catalogs/rpc_classes.csv
+  catalog_meta: configs/catalogs/rpc_meta_categories.csv
+  class_mapping: data/custom/manifests/class_mapping.csv
+  brazilian_metadata: data/brazilian_products/metadata
+  brazilian_checkpoint: models/brazilian/classifier.pt
+  prices_db: data/prices/market.sqlite
+
+rpc:
+  annotation_files:
+    train: instances_train2019.json
+    val: instances_val2019.json
+    test: instances_test2019.json
+  image_dirs:
+    train: train2019
+    val: val2019
+    test: test2019
+
+experiments:
+  run_training: false
+  run_download: false

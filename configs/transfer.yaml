@@ -1,0 +1,17 @@
+transfer:
+  num_classes: 50
+  stage_a:
+    frozen: feature_extractor
+    trainable: classifier
+  stage_b:
+    mobilenet_v3_large_unfreeze: "ultimos 3 blocos de features"
+    resnet18_unfreeze: layer4
+    learning_rate_factor: 0.1
+  head_learning_rate: 0.001
+  download_imagenet_weights: false
+  run_training: false
+  weights:
+    mobilenet_v3_large: "torchvision MobileNet_V3_Large_Weights.DEFAULT"
+    resnet18: "torchvision ResNet18_Weights.DEFAULT"
+  augmentation_scope: treino
+  evaluation: exploratoria_por_grupo_de_origem
